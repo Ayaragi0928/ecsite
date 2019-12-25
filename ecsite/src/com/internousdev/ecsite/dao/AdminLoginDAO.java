@@ -15,7 +15,7 @@ public class AdminLoginDAO {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 		AdminLoginDTO dto = new AdminLoginDTO();
-		String sql ="SELECT * FROM adminlogin_user_transaction where login_name=? AND login_pass=?";
+		String sql ="SELECT * FROM adminlogin_user_transaction where login_name = ? AND login_pass = ?";
 
 		try{
 			PreparedStatement ps = con.prepareStatement(sql);

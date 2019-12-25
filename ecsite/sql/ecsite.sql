@@ -47,5 +47,3 @@ INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("Not
 INSERT INTO login_user_transaction(login_id, login_pass, user_name, admin_flg) VALUES("internous","internous01","test","0");
 INSERT INTO login_user_transaction(login_id, login_pass, user_name, admin_flg) VALUES("123","abc","管理人","1");
 INSERT INTO adminlogin_user_transaction(login_name,login_pass) VALUES("admin","admin");
-
-
